@@ -2,7 +2,7 @@
 
 http://tyage.sakura.ne.jp/akasheet/
 
-CakePHP 1.2 based app.
+CakePHP 1.3.8 based app.
 
 Created in 2011.
 
