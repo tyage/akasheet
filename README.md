@@ -4,7 +4,7 @@ http://tyage.sakura.ne.jp/akasheet/
 
 CakePHP 1.3.8 based app.
 
-Created in 2011.
+last update: 2011/2/12.
 
 database schema file: db_dump.sql
 
