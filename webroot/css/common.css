@@ -1,0 +1,281 @@
+html {
+	background: #d2b48c;
+}
+
+body {
+	background: url(/akasheet/img/background.png) repeat-y left top, url(/akasheet/img/background-right.png) repeat-y right top;
+	margin: 20px auto;
+	width: 900px;
+	font-size: 14px;
+}
+.ua-ie body {
+	background: url(/akasheet/img/background.png) repeat-y left top;
+}
+
+h1 {
+	font-size: 2.5em;
+	padding: 10px 0 20px;
+	width: 500px;
+}
+h2 {
+	border-bottom: 1px solid #AAA;
+	font-size: 1.7em;
+	margin: 20px 0 10px;
+	padding: 0 0 5px 5px;
+}
+
+ul {
+	padding: 0 0 0 30px;
+}
+li {
+	margin: 5px 0px;
+}
+
+section {
+	padding: 5px;
+}
+
+a {
+	color: #00C;
+	text-decoration: none;
+}
+	a:hover {
+		text-decoration: underline;
+	}
+
+input {
+	padding: 3px;
+}	
+
+pre {
+	white-space: -moz-pre-wrap; /* Mozilla */
+	white-space: -pre-wrap; /* Opera 4-6 */
+	white-space: -o-pre-wrap; /* Opera 7 */
+	white-space: pre-wrap; /* CSS3 */
+	word-wrap: break-word; /* IE 5.5+ */
+}
+
+.clearfix {
+	/zoom : 1;
+}
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.word {
+	color: red;
+	background: red;
+	font-weight: bold;
+	cursor: pointer;
+	margin: 0 3px;
+	padding: 0 3px;
+}
+	.word.open {
+		background: transparent;
+	}
+
+.asc:after {
+	content: ' ▲';
+}
+.desc:after {
+	content: ' ▼';
+}
+
+.highlight {
+	background: #FFF06E;
+	padding: 0 0.3em;
+	font-weight: bold;
+}
+
+.input {
+	margin: 10px 0 0;
+}
+.submit {
+	margin: 10px 0 0 80px;
+}
+.form-error {
+	border: 1px solid red;
+}
+.error-message {
+	color: red;
+	font-weight: bold;
+	margin: 5px 0 0 80px;
+}
+
+ul.inline li {
+	display: inline;
+	padding: 0 5px;
+}
+
+nav ul {
+	padding: 0;
+}
+nav li {
+	display: inline;
+	padding: 0 5px;
+}
+
+form label {
+	display: block;
+	width: 80px;
+	padding: 5px 0 0 0;
+	float: left;
+	clear: left;
+}
+
+#Content {
+	margin: 0 50px;
+	padding: 20px;
+	background: white;
+}
+
+#Header {
+	position: relative;
+}
+	#Header .red {
+		color: red;
+	}
+	#Header .plus {
+		color: #0D0;
+		font-size: 0.8em;
+	}
+	#HeaderNav {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+		#UserNav {
+			text-align: right;
+			margin: 0 0 10px 0;
+		}
+
+#Footer {
+	border-top: 1px solid #AAA;
+	margin: 20px 0 0 0;
+	padding: 10px 0 0 0;
+	text-align: center;
+}
+
+.sheet {
+	border: 1px solid #AAA;
+	margin: 15px 0;
+	padding: 10px;
+}
+	.sheet-header {
+		padding: 0 0 5px 0;
+		margin: 0 0 10px 0;
+		border-bottom: 1px dotted #aaa;
+	}
+		.sheet-title {
+			padding: 0 10px 0 0;
+			display: block;
+			float: left;
+		}
+			.sheet .title a {
+				font-size: 1.2em;
+			}
+		.sheet-user {
+			float: left;
+			display: block;
+		}
+		.sheet-action {
+			float: right;
+			font-size: 13px;
+		}
+	.sheet-body {
+		padding: 0px 10px;
+	}
+		.sheet-text {
+			font-size: 15px;
+			line-height: 1.5em;
+		}
+			.wiki .sheet-text ul, .wiki .sheet-text ol {
+				margin: 0 0 0 30px;
+			}
+		.sheet-list .sheet-text {
+			max-height: 150px;
+			overflow: auto;
+		}
+	.sheet-footer {
+		border-top: 1px dotted #aaa;
+		padding: 5px 0 0 0;
+		margin: 10px 0 0 0;
+	}
+		.sheet-tags {
+			display: inline;
+		}
+		.sheet-view {
+		}
+		.sheet-time {
+			font-size: 13px;
+		}
+		.sheet-tags, .sheet-view, .sheet-time {
+			margin: 0 5px 0 0;
+		}
+
+.hatena div.day {
+	margin: 0 !important;
+}
+
+.markdown h3, .wiki h3 {
+	font-size: 16px;
+	margin: 10px 0 5px 0;
+}
+
+#SheetDraft {
+	background: yellow;
+	padding: 10px;
+	margin: 5px auto;
+	width: 680px;
+	display: none;
+}
+	#SheetDraft p {
+		cursor: pointer;
+		font-weight: bold;
+	}
+		#SheetDraft p:hover {
+			text-decoration: underline;
+		}
+	#SheetDraftSet {
+		float: left;
+	}
+	#SheetDraftDelete {
+		float: right;
+	}
+
+#SheetEditForm, #SheetAddForm {
+	text-align: center;
+}
+	#SheetEditForm #SheetText, #SheetAddForm #SheetText {
+		width: 690px;
+		height: 300px;
+		padding: 5px;
+		line-height: 150%;
+		outline: none;
+		border: 1px solid #aaa;
+	}
+	#SheetEditForm .submit, #SheetAddForm .submit {
+		margin: 10px 0 0 0;
+	}
+	#sheet-option {
+		width: 680px;
+		text-align: left;
+		border: 1px solid #aaa;
+		padding: 10px;
+		margin: 10px auto 0 auto;
+	}
+		#option-trigger {
+			cursor: pointer;
+		}
+		#option-trigger:after {
+			content: ' ▼';
+		}
+		#option-trigger.open:after {
+			content: ' ▲';
+		}
+
+#SheetIndexForm {
+	text-align: right;
+}
