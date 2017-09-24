@@ -7,6 +7,7 @@
 # 赤シート++
 
 http://tyage.sakura.ne.jp/akasheet/
+- the service was terminated, sheets are backuped at: https://gist.github.com/tyage/f063f52e0e9bc3bb2692fd5f0dd9fd94
 
 CakePHP 1.3.8 based app.
 
